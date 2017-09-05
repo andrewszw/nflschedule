@@ -28,7 +28,7 @@ def get_dates(date_ids):
 def write_to_text_file(game_info, week_num):
 
     # name text file and open
-    text_file = open('week' + week_num + '.txt', 'w')
+    text_file = open('data/week' + week_num + '.txt', 'w')
     text_file.write('NFL Week ' + week_num + ' Schedule:\n')
     text_file.write('\n')
     for home_team, away_team, date in game_info:
